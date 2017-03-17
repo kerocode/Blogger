@@ -1,0 +1,9 @@
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\bin\Debug\netcoreapp1.1\Blogger.deps.json
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\bin\Debug\netcoreapp1.1\Blogger.runtimeconfig.json
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\bin\Debug\netcoreapp1.1\Blogger.runtimeconfig.dev.json
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\obj\Debug\netcoreapp1.1\Blogger.csprojResolveAssemblyReference.cache
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\obj\Debug\netcoreapp1.1\Blogger.AssemblyInfo.cs
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\bin\Debug\netcoreapp1.1\Blogger.dll
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\bin\Debug\netcoreapp1.1\Blogger.pdb
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\obj\Debug\netcoreapp1.1\Blogger.dll
+C:\Users\keroles.hakem\Documents\GitHub\Blogger\Blogger\obj\Debug\netcoreapp1.1\Blogger.pdb
