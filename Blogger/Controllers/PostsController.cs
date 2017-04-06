@@ -25,7 +25,7 @@ namespace Blogger.Controllers
             _context = context;
             //    IPostRepository postRepository,
             //    ITopicRepository topicRepository,IAuthorRepository authorRepository,
-            //  IPublisherRepository publisherRepository,
+            //    IPublisherRepository publisherRepository,
             //    _postRepository = postRepository;
             //    _authorRepository = authorRepository;
             //    _publisherRepository = publisherRepository;
@@ -43,6 +43,7 @@ namespace Blogger.Controllers
                 .Include(p => p.PostTopics)
                   .ThenInclude(postTopic => postTopic.Topic)
                 .Include(p => p.HeaderImage)
+                .AsNoTracking()
                 .ToList();
             //IEnumerable<Post> posts = _postRepository
             //    .AllIncluding(p => p.Author, p => p.Publisher)
@@ -99,14 +100,20 @@ namespace Blogger.Controllers
             {
                 _context.Posts.Add(post);
                 _context.SaveChanges();
-                return Ok();
+                return Ok(post);
             }
-        
             else
             {
                 return StatusCode((int)HttpStatusCode.Conflict);
             }
 
+
+        }
+
+        // PUT api/values/5
+        [HttpPatch("{id}")]
+        public void Patch(int id, [FromBody]string value)
+        {
 
         }
 
